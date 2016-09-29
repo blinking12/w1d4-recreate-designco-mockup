@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid {
+    /*margin: 0 auto;
+    margin-top: 50px;*/
+    max-width: 960px;
+    display: flex;
+
+}
+
+.col {
+flex: 1;
+background-color: rgb(192, 228, 191);
+transition: all 1s ease;
+opacity: .9;
+}
+
+
+.col:hover {
+    /*flex: 5;*/
+}
+
+.col:first-child {
+    background-color: rgb(215, 161, 161);
+    /*opacity: .8;*/
+}
+.col:last-child {
+    background-color: rgb(210, 226, 255);
+}
