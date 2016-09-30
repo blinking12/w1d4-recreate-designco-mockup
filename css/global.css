@@ -76,9 +76,8 @@ opacity: .9;*/
 }
 
 .headimg2 {
-    max-width: 30px;
-
-
+    /*max-width: 30px;*/
+    padding-left: 500px;
 }
 
 .div1 {
@@ -101,14 +100,16 @@ opacity: .9;*/
 }
 
 .column {
+    display: flex;
     display: inline-block;
     columns: 4;
+    padding: 25px;
 }
 
-.piccolumn {
+/*.piccolumn {
     display: inline-block;
     columns: 2;
-}
+}*/
 
 .col {
     display: flex;
@@ -147,6 +148,7 @@ opacity: .9;*/
 
 .parent {
     display: flex;
+    flex-flow: wrap;
 }
 
 .childrel {
@@ -163,6 +165,9 @@ opacity: .9;*/
 .childrel3 {
     display: flex;
     flex-direction: row;
+    /*flex: 2;*/
+    /*display: inline-flex;*/
+    flex-wrap: wrap;
 }
 
 .what {
@@ -179,4 +184,31 @@ opacity: .9;*/
 
 .foottext {
     color: #6C6C6C;
+}
+
+
+
+/*practice at the bottom of page*/
+
+.pcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.pdiv1 {
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.pdiv1-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.pdiv2 {
+    display: flex;
+    flex-wrap: wrap;
 }
