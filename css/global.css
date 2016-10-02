@@ -1,6 +1,6 @@
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* header starts*/
@@ -41,11 +41,11 @@ header {
 }
 
 .home {
-    color: #FD2727;
+  color: #FD2727;
 }
 
 .headwords {
-    color: #2A2A2A;
+  color: #2A2A2A;
 }
 
 .col-right {
@@ -71,17 +71,17 @@ li {
 /*The Details Matter starts */
 
 .div1 {
-    text-align: center;
+  text-align: center;
 }
 
 .div1h1 {
-    color: #4A4A4A;
-    padding-top: 130px;
+  color: #4A4A4A;
+  padding-top: 20px;
 }
 
 .div1h2 {
-    color: #5A5A5A;
-    font-size: 15px;
+  color: #5A5A5A;
+  font-size: 15px;
 }
 
 /*The Details Matter ends*/
@@ -143,82 +143,46 @@ li {
 
 /*Picture box css ends*/
 
-/*Bottom 4 columns start*/
+/*footer start*/
 
-.pcontainer {
+footer {
+  clear: both;
   display: flex;
-  max-width: 960px;
   margin: 0 auto;
-  flex-direction: column;
-  flex: 2
+  width: 95%;
 }
 
 .a {
-    color: #767676;
-    fl
-}
-
-.column {
-    display: flex;
-    display: inline-block;
-    columns: 4;
-    padding: 25px;
+  color: #767676;
 }
 
 .what {
-    color: #FF0606;
+  color: #FF0606;
 }
 
 .foottext {
-    color: #6C6C6C;
+  color: #6C6C6C;
 }
 
 .modern {
-    color: #505050;
+  color: #505050;
 }
 
-/*Bottom 4 columns end*/
+.whatsnew {
+  font-size: 10pt;
+  width: 25%;
+  float: left;
+  margin-right: 6px;
+}
 
+.layouts {
+  font-size: 10pt;
+  width: 75%;
+  float: left;
+}
 
-/*collin*/
+.layouts p {
+  column-count: 3;
+}
 
-
-/*.grid {
-    margin: 0 auto;
-    width: 96vw;
-    display: flex;
-}
-.grid img {
-    width: 100%;
-}
-.grid__column {
-    display: flex;
-    flex-wrap: wrap;
-    padding-right: 1vw;
-    align-content: flex-start;
-}
-.grid__column:last-child {
-    padding: 0;
-}
-.grid__column--two-thirds {
-    min-width: 64vw;
-    flex: 1.99;
-}
-.grid__column--one-third {
-    min-width: 32vw;
-    flex: 1.01;
-}
-.grid__item {
-    padding-bottom: 1vw;
-}
-.grid__item--full {
-    min-width: 100%;
-    flex: 3;
-}
-.grid__item--one-third {
-    flex: 1.2;
-    padding-right: 1vw;
-}
-.grid__item--two-third {
-    flex: 1.8;
-}*/
+/*footer end*/
