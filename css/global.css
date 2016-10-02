@@ -1,72 +1,72 @@
+
 * {
     box-sizing: border-box;
 }
-img {
-    /*width: 100%;*/
+
+/* header starts*/
+
+header {
+  height: 80px;
+  background-color: #F7F7F7;
 }
 
-html, body {
-    height: 100%;
+.nav {
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  border-top: 3px solid red;
 }
 
-body {
-    /*display: flex;*/
-    /*justify-content: center;
-    align-items: center;*/
-
+.fixed {
+  position: fixed;
+  width: 100%;
 }
 
 .col {
-/*flex: 1;
-background-color: rgb(192, 228, 191);
-transition: all 1s ease;
-opacity: .9;*/
+  display: block;
+  float: left;
 }
 
-
-.col:hover {
-    /*flex: 5;*/
+.col-left {
+  width: 15%;
 }
 
-/*header bar css start*/
-
-.head {
-    background-color: #F7F7F7;
-    width: 960px;
-    float: left;
-    padding: 20px;
+.img1 img {
+  display: block;
+  margin: 34px;
 }
-.head1 {
+
+.col-middle {
+  width: 75%;
+}
+
+.home {
     color: #FD2727;
-    padding-right: 10px;
 }
 
-.head2 {
+.headwords {
     color: #2A2A2A;
-    padding-right: 10px;
 }
 
-.head3 {
-    color: #2A2A2A;
-    padding-right: 10px;
+.col-right {
+  width: 10%;
 }
 
-.head4 {
-    color: #2A2A2A;
-    padding-right: 10px;
+.img2 img {
+  display: block;
+  margin: 30px;
 }
 
-.headimg1 {
-    max-width: 100px;
-    padding-right: 20px;
+ul {
+  list-style-type: none;
 }
 
-.headimg2 {
-    /*max-width: 30px;*/
-    padding-left: 500px;
+li {
+  float: left;
+  padding: 16px;
 }
 
-/*header bar css ends*/
+/* header ends*/
 
 /*The Details Matter starts */
 
@@ -188,46 +188,37 @@ opacity: .9;*/
     width: 96vw;
     display: flex;
 }
-
 .grid img {
     width: 100%;
 }
-
 .grid__column {
     display: flex;
     flex-wrap: wrap;
     padding-right: 1vw;
     align-content: flex-start;
 }
-
 .grid__column:last-child {
     padding: 0;
 }
-
 .grid__column--two-thirds {
     min-width: 64vw;
     flex: 1.99;
 }
-
 .grid__column--one-third {
     min-width: 32vw;
     flex: 1.01;
 }
-
 .grid__item {
     padding-bottom: 1vw;
 }
-
 .grid__item--full {
     min-width: 100%;
     flex: 3;
 }
-
 .grid__item--one-third {
     flex: 1.2;
     padding-right: 1vw;
 }
-
 .grid__item--two-third {
     flex: 1.8;
 }*/
