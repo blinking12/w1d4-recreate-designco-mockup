@@ -91,8 +91,9 @@ li {
 
 .grid {
   margin: 0 auto;
-  width: 96vw;
+  width: 80%;
   display: flex;
+  align-content: center;
 }
 
 .grid img {
@@ -111,12 +112,12 @@ li {
 }
 
 .grid__column--two-thirds {
-  min-width: 64vw;
+  /*min-width: 64vw;*/
   flex: 2;
 }
 
 .grid__column--one-third {
-  min-width: 32vw;
+  /*min-width: 32vw;*/
   flex: 1;
 }
 
@@ -150,7 +151,7 @@ footer {
   clear: both;
   display: flex;
   margin: 0 auto;
-  width: 95%;
+  width: 80%;
 }
 
 .a {
